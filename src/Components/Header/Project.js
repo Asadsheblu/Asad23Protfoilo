@@ -79,13 +79,13 @@ const Project = () => {
                 
                  </p>
           <small className=' fw-bold'>Live Link:</small>
-            <a href="https://asadblog-frontend.vercel.app/" class="facebook"><FaGlobe/></a>
+            <a href="https://bicyle-manufacture-client-side.vercel.app/" class="facebook"><FaGlobe/></a>
             <br/>
           <small className=' fw-bold'>Frontend Code Link:</small>
-            <a href="https://github.com/Asadsheblu/Asadblog-frontend" ><FaGithub className='text-dark'/></a>
+            <a href="https://github.com/Asadsheblu/Bicyle-manufacture-client-side" ><FaGithub className='text-dark'/></a>
             <br/>
           <small className=' fw-bold'>Backend Code Link:</small>
-            <a href="https://github.com/Asadsheblu/Asadblog-backend" class=""><FaGithub className='text-dark'/></a>
+            <a href="https://github.com/Asadsheblu/Bicyle-manufacture-server-side" class=""><FaGithub className='text-dark'/></a>
          
         </div>
           </div>
@@ -134,10 +134,9 @@ const Project = () => {
             <a href="https://designo-project-rho.vercel.app/" class="facebook"><FaGlobe/></a>
             <br/>
           <small className=' fw-bold'>Frontend Code Link:</small>
-            <a href="https://github.com/Asadsheblu/NextCommerce1frontend" ><FaGithub className='text-dark'/></a>
-            <br/>
-          <small className=' fw-bold'>Backend Code Link:</small>
-            <a href="https://github.com/Asadsheblu/nextcommerce1backend" class=""><FaGithub className='text-dark'/></a>
+            <a href="https://github.com/Asadsheblu/Designo-project/" ><FaGithub className='text-dark'/></a>
+          
+          
          
         </div>
           </div>
@@ -156,14 +155,11 @@ const Project = () => {
             </div>
             <div class="social-links pt-2">
           <small className=' fw-bold'>Live Link:</small>
-            <a href="https://next-commerce1frontend.vercel.app/" class="facebook"><FaGlobe/></a>
+            <a href="https://artisan-convention-center.netlify.app/" class="facebook"><FaGlobe/></a>
             <br/>
           <small className=' fw-bold'>Frontend Code Link:</small>
-            <a href="https://github.com/Asadsheblu/NextCommerce1frontend" ><FaGithub className='text-dark'/></a>
-            <br/>
-          <small className=' fw-bold'>Backend Code Link:</small>
-            <a href="https://github.com/Asadsheblu/nextcommerce1backend" class=""><FaGithub className='text-dark'/></a>
-         
+            <a href="https://github.com/Asadsheblu/Artisan-convention-center" ><FaGithub className='text-dark'/></a>
+           
         </div>
           </div>
 

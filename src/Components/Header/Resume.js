@@ -8,7 +8,9 @@ const Resume = () => {
 
         <div class="section-title">
           <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Self-motivated team player with one years of experience seeking a position as a lead web developer with
+Next Generation Web Development where I can apply my advanced knowledge of web design with my
+leadership abilities to meet client needs and exceed their expectations.</p>
         </div>
 
         <div class="row">
@@ -16,7 +18,9 @@ const Resume = () => {
             <h4 class="resume-title">Sumary</h4>
             <div class="resume-item pb-0">
               <h5>MD Asaduz Zaman</h5>
-              <small><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></small>
+              <small><em>I’m an innovative jr. Frontend Developer with 1 years of experience to developed any kinds of Website. i am expert on Html css javascript react firebase and hosting.I have good experience node express mongodb stripe & SSL Commerz  payment gateway etc.
+I want to utilize my knowledge and personal skill in web development .Alse eagerly wants to serve a professional organization to the best of my knowledge with true dedication,hard-work,and commitment.I am down to earth honest,coinfident,fun loving caring as well.
+</em></small>
               <ul>
                 <li>Bangladesh,Chittagong,Feni</li>
                 <li>(+88) 01609101537</li>

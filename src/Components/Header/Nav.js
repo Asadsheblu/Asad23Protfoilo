@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBeer, FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaBeer, FaBook, FaEnvelope, FaFacebook, FaFile, FaGithub, FaHome, FaLinkedin, FaServer, FaTwitter, FaUser } from "react-icons/fa";
 import Banner from '../Banner/Banner';
 
 import "./Nav.css"
@@ -38,15 +38,15 @@ const Nav = () => {
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className=''>
-          <li><Link  to="/" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></Link></li>
-          <li><Link  to="/about" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>About</span></Link></li>
-          <li><Link  to="/skill" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Skill</span></Link></li>
+          <li><Link  to="/" class="nav-link scrollto active"><i class="bx bx-home"><FaHome/></i> <span>Home</span></Link></li>
+          <li><Link  to="/about" class="nav-link scrollto active"><i class="bx bx-home"><FaUser/></i> <span>About</span></Link></li>
+          <li><Link  to="/skill" class="nav-link scrollto active"><i class="bx bx-home"><FaServer/></i> <span>Skill</span></Link></li>
        
-          <li><Link to="/resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></Link></li>
-          <li><Link to="/project" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Project</span></Link></li>
+          <li><Link to="/resume" class="nav-link scrollto active"><i class="bx bx-file-blank"><FaFile/></i> <span>Resume</span></Link></li>
+          <li><Link to="/project" class="nav-link scrollto active"><i class="bx bx-file-blank"><FaBook/></i> <span>Project</span></Link></li>
 
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+         
+          <li><Link to="/contact" class="nav-link scrollto active"><i class="bx bx-envelope"><FaEnvelope/></i> <span>Contact</span></Link></li>
         </ul>
         </div>
       </nav>

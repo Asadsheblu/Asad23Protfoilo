@@ -8,6 +8,7 @@ import About from './Components/About';
 import Skill from './Components/Skill';
 import Resume from './Components/Header/Resume';
 import Project from './Components/Header/Project';
+import Contact from './Components/Header/Contact';
 function App() {
   return (
     <div className=''> 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/skill" element={<Skill />}> </Route>
         <Route path="/resume" element={<Resume />}> </Route>
         <Route path="/project" element={<Project />}> </Route>
+        <Route path="/contact" element={<Contact />}> </Route>
         
           {/* <Route path="/about" element={<About />} /> */}
           {/* <Route path="contact" element={<Contact />} />
