@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBeer, FaBook, FaEnvelope, FaFacebook, FaFile, FaGithub, FaHome, FaLinkedin, FaServer, FaTwitter, FaUser } from "react-icons/fa";
+import { FaBeer, FaBook, FaEnvelope, FaFacebook, FaFile, FaGithub, FaHome, FaLinkedin, FaList, FaServer, FaTwitter, FaUser } from "react-icons/fa";
 import Banner from '../Banner/Banner';
 
 import "./Nav.css"
@@ -8,14 +8,22 @@ import About from '../About';
 import Skill from '../Skill';
 import { Link } from 'react-router-dom';
 const Nav = () => {
+  const  nav=()=>{
+    onclick('click', '.mobile-nav-toggle', function(e) {
+      Selection('body').classList.toggle('mobile-nav-active')
+      this.classList.toggle('bi-list')
+      this.classList.toggle('bi-x')
+    })
+  
+  }
     return (
       
 <>
 
 
-
+        {/* <FaList onClick={nav} className='mobile-nav-toggle d-xl-none bi bi-list'/> */}
   
-      <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+      {/* <i class="bi bi-list "></i> */}
     
  
       <header id="header">
@@ -32,11 +40,11 @@ const Nav = () => {
               <a href="#" class="linkedin"><FaTwitter/></a>
             </div>
           </div>
-          <nav id="navbar" class="nav-menu navbar navbar-expand-lg">
+          <nav id="navbar" class="nav-menu">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div >
         <ul className=''>
           <li><Link  to="/" class="nav-link scrollto active"><i class="bx bx-home"><FaHome/></i> <span>Home</span></Link></li>
           <li><Link  to="/about" class="nav-link scrollto active"><i class="bx bx-home"><FaUser/></i> <span>About</span></Link></li>
