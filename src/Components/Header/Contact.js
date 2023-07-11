@@ -1,7 +1,15 @@
 import React from 'react';
 import { FaEnvelope, FaLocationArrow, FaPhone } from 'react-icons/fa';
+import emailjs from '@emailjs/browser';
 import "../Header/Nav.css"
+import { toast } from 'react-toastify';
 const Contact = () => {
+  const sendEmail=(e)=>{
+    e.preventDefault()
+    toast.success("Your Mail is Send")
+    emailjs.sendForm('service_fwlixb4','template_zpplboe',e.target,'dxpJ_WcOC2xqILPJR').then(res=>console.log(res)).catch(err=>console.log(err))
+   e.target.reset()
+}
     return (
         <div>
            <section id="contact" class="contact">
@@ -40,7 +48,7 @@ const Contact = () => {
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form  class="php-email-form">
+            <form onSubmit={sendEmail} >
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -48,7 +56,7 @@ const Contact = () => {
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required/>
+                  <input type="email"  class="form-control" name="email" id="email" required/>
                 </div>
               </div>
               <div class="form-group">
@@ -59,11 +67,7 @@ const Contact = () => {
                 <label for="name">Message</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
+           
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
