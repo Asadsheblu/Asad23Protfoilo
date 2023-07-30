@@ -98,7 +98,7 @@ const Project = () => {
             </div>
             <div class="social-links pt-2">
                 <h6 className='text-center fw-bold'>Rent House Website</h6>
-                <small className='text-muted'>This is Full Stack  Website.User Can Add House For Sell</small>
+                <small className='text-muted'>This is Full Stack  Website.User Can Add House For Sell also contact buyer for Buying or Rent House.</small>
                 <p>Technology: <img src={next} width={20}/> <FaBootstrap width={24}/>
                
                <img src={express} width={20}/>

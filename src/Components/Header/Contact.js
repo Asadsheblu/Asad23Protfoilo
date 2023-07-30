@@ -33,13 +33,13 @@ const Contact = () => {
               <div class="email">
                 <i class="bi bi-envelope"><FaEnvelope/></i>
                 <h4>Email:</h4>
-                <p>not now avilable</p>
+                <p>shebluasad@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"><FaPhone/></i>
                 <h4>Call:</h4>
-                <p>not now avilable</p>
+                <p>+88 01609-101537</p>
               </div>
 
             

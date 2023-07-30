@@ -9,6 +9,7 @@ import Skill from './Components/Skill';
 import Project from './Components/Header/Project';
 import Contact from './Components/Header/Contact';
 import Review from './Components/Header/Review';
+import Resume from './Components/Header/Resume';
 import Chat from './Components/Chat/Chat';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <Route path="/" element={<Home/>}> </Route>
         <Route path="/about" element={<About />}> </Route>
         <Route path="/skill" element={<Skill />}> </Route>
-        {/* <Route path="/resume" element={<Resume />}> </Route> */}
+        <Route path="/resume" element={<Resume />}> </Route>
         <Route path="/project" element={<Project />}> </Route>
        
         <Route path="/review" element={<Review />}> </Route>

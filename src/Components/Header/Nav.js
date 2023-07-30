@@ -41,14 +41,14 @@ const Nav = () => {
           <li><Link  to="/" class="nav-link scrollto active"><i class="bx bx-home"><FaHome/></i> <span>Home</span></Link></li>
           <li><Link  to="/about" class="nav-link scrollto active"><i class="bx bx-home"><FaUser/></i> <span>About</span></Link></li>
           <li><Link  to="/skill" class="nav-link scrollto active"><i class="bx bx-home"><FaServer/></i> <span>Skill</span></Link></li>
-{/*        
-          <li><Link to="/resume" class="nav-link scrollto active"><i class="bx bx-file-blank"><FaFile/></i> <span>Resume</span></Link></li> */}
+
+           <li><Link to="/resume" class="nav-link scrollto active"><i class="bx bx-file-blank"><FaFile/></i> <span>Resume</span></Link></li>
           <li><Link to="/project" class="nav-link scrollto active"><i class="bx bx-file-blank"><FaBook/></i> <span>Project</span></Link></li>
-          <li><Link to="/review" class="nav-link scrollto active"><i class="bx bx-file-blank"><FaPen/></i> <span>Review</span></Link></li>
+          {/* <li><Link to="/review" class="nav-link scrollto active"><i class="bx bx-file-blank"><FaPen/></i> <span>Review</span></Link></li> */}
 
          
           <li><Link to="/contact" class="nav-link scrollto active"><i class="bx bx-envelope"><FaEnvelope/></i> <span>Contact</span></Link></li>
-          <li><Link to="/chat" class="nav-link scrollto active"><i class="bx bx-envelope"><FaEnvelope/></i> <span>Chat</span></Link></li>
+         
         </ul>
         </div>
       </nav>
