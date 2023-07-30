@@ -33,13 +33,13 @@ const Contact = () => {
               <div class="email">
                 <i class="bi bi-envelope"><FaEnvelope/></i>
                 <h4>Email:</h4>
-                <p>shebluasad@gmail.com</p>
+                <p>not now avilable</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"><FaPhone/></i>
                 <h4>Call:</h4>
-                <p>+88 01609101537</p>
+                <p>not now avilable</p>
               </div>
 
             
@@ -68,7 +68,7 @@ const Contact = () => {
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
            
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button className='btn btn-info' type="submit">Send Message</button></div>
             </form>
           </div>
 

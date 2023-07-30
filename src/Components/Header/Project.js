@@ -3,6 +3,7 @@ import feri from "../../images/ferio.png"
 import blog from "../../images/blog.png"
 import bycyle from "../../images/bycule.png"
 import desingo from "../../images/desingo.png"
+import delivery from "../../images/deliver-project.png"
 import influencer from "../../images/influencer.png"
 import center from "../../images/center.png"
 import next from "../../images/nextjs.png"
@@ -11,7 +12,7 @@ import express from "../../images/express js.png"
 import firebase from "../../images/firebase.png"
 import ssl from "../../images/payment.png"
 import stripe from "../../images/stripe.png"
-
+import rent from "../../images/rent house (2).png"
 import talwind from "../../images/tailwind-css-svgrepo-com.svg"
 import "./Nav.css"
 import { Link } from 'react-router-dom';
@@ -92,6 +93,34 @@ const Project = () => {
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web shadow p-3">
             <div class="portfolio-wrap">
+              <img src={rent} class="img-fluid" alt=""/>
+             
+            </div>
+            <div class="social-links pt-2">
+                <h6 className='text-center fw-bold'>Rent House Website</h6>
+                <small className='text-muted'>This is Full Stack  Website.User Can Add House For Sell</small>
+                <p>Technology: <img src={next} width={20}/> <FaBootstrap width={24}/>
+               
+               <img src={express} width={20}/>
+               <img src={mongodb} width={20}/>
+               
+               
+               
+                </p>
+          <small className=' fw-bold'>Live Link:</small>
+            <a href="https://rent-house-frontend.vercel.app/" class="facebook"><FaGlobe/></a>
+            <br/>
+          <small className=' fw-bold'>Frontend Code Link:</small>
+            <a href="https://github.com/Asadsheblu/RentHouse-Frontend" ><FaGithub className='text-dark'/></a>
+            <br/>
+          <small className=' fw-bold'>Backend Code Link:</small>
+            <a href="https://github.com/Asadsheblu/RentHouse-Backend" class=""><FaGithub className='text-dark'/></a>
+         
+        </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web shadow p-3">
+            <div class="portfolio-wrap">
               <img src={blog} class="img-fluid" alt=""/>
              
             </div>
@@ -135,6 +164,27 @@ const Project = () => {
             <br/>
           <small className=' fw-bold'>Frontend Code Link:</small>
             <a href="https://github.com/Asadsheblu/Designo-project/" ><FaGithub className='text-dark'/></a>
+          
+          
+         
+        </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app shadow p-3">
+            <div class="portfolio-wrap">
+              <img src={delivery} class="img-fluid" alt=""/>
+             
+             
+            </div>
+            <div class="social-links pt-2">
+            <h6 className='text-center fw-bold'> Deliver Company Website</h6>
+                <small className='text-muted'>This is delivery Company website.</small>
+                <p>Technology: <img src={next} width={20}/> <FaBootstrap width={24}/>
+                </p>
+          <small className=' fw-bold'>Live Link:</small>
+            <a href="https://delivery-one-fawn.vercel.app/" class="facebook"><FaGlobe/></a>
+            <br/>
+          <small className=' fw-bold'>Frontend Code Link:</small>
+            <a href="https://github.com/Asadsheblu/Delivery" ><FaGithub className='text-dark'/></a>
           
           
          
